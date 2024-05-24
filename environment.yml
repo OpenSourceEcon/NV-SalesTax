@@ -1,0 +1,12 @@
+name: nv-salestax-dev
+channels:
+- conda-forge
+dependencies:
+- python>=3.11
+- ipython
+- jupyter
+- bokeh>=3.4
+- pip
+- pip:
+  - geopandas
+  - openpyxl
